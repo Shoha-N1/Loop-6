@@ -14,12 +14,6 @@
     margin-top: 32px;
 }
 
-.hashend {
-    color: rgba(65, 64, 64, 0.918);
-    margin-left: 226px;
-    margin-top: 32px;
-}
-
 button {
     border: none;
 }
@@ -51,32 +45,7 @@ body {
 }
 
 .boss {
-    display: flex;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    height: 280px;
     margin-top: 57px;
-}
-
-.box {
-    position: absolute;
-    display: flex;
-    margin-left: -380px;
-    height: 47px;
-    margin-top: -5px;
-}
-
-.box h3 {
-    margin-left: 19px;
-    font-size: 17px;
-    height: 20px;
-    color: rgba(0, 0, 0, 0.61);
-}
-
-h4 {
-    color: rgba(65, 64, 64, 0.918);
-    margin-left: 42px;
-    height: 15px;
 }
 
  .hash2 {
@@ -99,142 +68,112 @@ h4 {
     margin-bottom: 5px;
 }
 
-.seven {
-    border: 1px solid rgb(240, 170, 20);
-    width: 25px;
-    height: 25px;
-    padding-top: 3px;
-    padding-left: 7px;
-    border-radius: 30px;
-    background-color: rgb(240, 170, 20);
-    color: #fff;
-}
-
-.num-2 {
-    position: absolute;
-    border: 1px solid rgb(240, 170, 20);
-    width: 32px;
-    margin-left: 324px;
-    height: 32px;
-    margin-top: 14px;
-    padding-top: 6px;
-    padding-left: 6px;
-    border-radius: 30px;
-}
-
-
-.num-1 {
-    position: absolute;
-    border: 1px solid rgb(240, 170, 20);
-    width: 32px;
-    margin-left: 94px;
-    height: 32px;
-    margin-top: 13px;
-    padding-top: 7px;
-    padding-left: 6px;
-    border-radius: 30px;
-}
-
-.num-0 {    
-    border: 1px solid rgb(240, 170, 20);
-    width: 12px;
-    height: 12px;
-    border-radius: 30px;
-    margin-left: 57px;
-    margin-top: 12px;
-    background-color: rgb(240, 170, 20);
-    color: #fff;
-    font-size: 10px;
-    padding-left: 2px;
-    padding-bottom: 12px;
-}
-
-
-.num-01 {    
-    border: 1px solid rgb(240, 170, 20);
-    width: 12px;
-    height: 12px;
-    border-radius: 30px;
-    margin-left: 57px;
-    margin-top: 12px;
-    background-color: rgb(240, 170, 20);
-    color: #fff;
-    font-size: 10px;
-    padding-left: 2.8px;
-    padding-bottom: 12px;
-}
-
-
-.num-3 {
-    position: absolute;
-    margin-left: 389px;
-}
-
-
-.bosser {
-    margin-left: 380px;
-    position: absolute;
-}
-
-
-.box-inner {
-    position: absolute;
-    display: flex;
-    margin-left: -369px;
-    margin-top: 28px;
-    height: 45px;
-}
-
-.box-inner h4 {
-    margin-right: 26px;
-    margin-left: 18px;
-}
-
-.box-inner-2 {
-    position: absolute;
-    display: flex;
-    margin-left: -391px;
-    margin-top: 69px;
-    height: 45px;
-}
-
-
-.box-inner-2 h4 {
-    margin-left: 46px;
-}
-
-
-.box-inner-3 {
-    position: absolute;
-    display: flex;
-    margin-left: -397px;
-    margin-top: 117px;
-    height: 45px;
-}
-
-
-.box-inner-4 {
-    position: absolute;
-    display: flex;
-    margin-left: -397px;
-    margin-top: 170px;
-    height: 45px;
-}
-
-
-.box-inner-5 {
-    position: absolute;
-    display: flex;
-    margin-left: -398px;
-    margin-top: 218px;
-    height: 45px;
-}
-
-
-.opo {
-    opacity: 0.4;
+.opocity {
+    opacity: 0.5;
 }
 
 .end {
-    display: flex;
+    margin-left: 332px;
+    margin-top: 25px;
 }
+
+.end-1 {
+    margin-top: 25px;
+}
+
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    padding: 17px 40px 0px 19px;
+    border-bottom: 1px solid #000;
+    height: 323px;
+    margin-top: -6px;
+    height: 300px;
+}
+
+
+.second {
+    border: 1px solid rgb(228, 157, 51);
+    border-radius: 30px;
+}
+
+.second::before {
+    content: "5";
+    font-size: 13px;
+    margin-top: -23px;
+    margin-left: 29px;
+    position: absolute;
+    border: 1px solid rgb(228, 157, 51);
+    background-color: rgb(228, 157, 51);
+    border-radius: 30px;
+    color: #fff;
+    width: 12px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.sixty {
+    border: 1px solid rgb(228, 157, 51);
+    border-radius: 30px;
+}
+
+.sixty::before {
+    content: "6";
+    font-size: 13px;
+    margin-top: -23px;
+    margin-left: 29px;
+    position: absolute;
+    border: 1px solid rgb(228, 157, 51);
+    background-color: rgb(228, 157, 51);
+    border-radius: 30px;
+    color: #fff;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.box {
+    position: absolute;
+    width: 408px;
+    height: 60px;
+    border-bottom: 1px solid #000;
+}
+
+.calendar div {
+    margin-top: -40px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.seven {
+    border: 1px solid rgb(228, 157, 51);
+    border-radius: 30px;
+    background-color: rgb(228, 157, 51);
+    color: #fff;
+}
+
+button {
+    position: absolute;
+    border: 2px solid rgb(228, 157, 51);
+    border-radius: 30px;
+    margin-left: 182px;
+    margin-top: 15px;
+    background-color: #fff;
+    width: 37px;
+    height: 37px
+}
+
